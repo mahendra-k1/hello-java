@@ -5,6 +5,8 @@ public class HelloWorldTest {
     @Test
     public void testGreet() {
        FFGFGJ
+	hghghghjk
+		gfmhgkhgk
          assertEquals("Hello from method!", HelloWorld.greet());
     }
 }
