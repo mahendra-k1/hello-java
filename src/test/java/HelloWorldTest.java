@@ -4,13 +4,6 @@ import static org.junit.Assert.*;
 public class HelloWorldTest {
     @Test
     public void testGreet() {
-       FFGFGJ
-
-	hghghghjk
-		gfmhgkhgk
-
-        fghfghfhgf
-
-         assertEquals("Hello from method!", HelloWorld.greet());
+        assertEquals("Hello from method!", HelloWorld.greet());
     }
 }
