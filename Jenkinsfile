@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'Maven 3.8.1' // Set in Jenkins > Global Tool Configuration
+        maven 'apache-maven-3.9.9' // Set in Jenkins > Global Tool Configuration
     }
     stages {
         stage('Clone') {
@@ -17,11 +17,6 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'mvn test'
-            }
-        }
-        stage('Archive') {
-            steps {
-                archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
             }
         }
     }
