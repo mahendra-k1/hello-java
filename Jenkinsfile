@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven 'apache-maven-3.9.9' // Set in Jenkins > Global Tool Configuration
+        maven 'Maven3.9.9' // Set in Jenkins > Global Tool Configuration
     }
     stages {
         stage('Clone') {
