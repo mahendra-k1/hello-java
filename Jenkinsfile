@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/mahendra-k1/hello-java.git'
+                echo 'Hello world'
             }
         }
         stage('Build') {
